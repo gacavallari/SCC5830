@@ -7,3 +7,4 @@ Facial recognition is being used in many systems and applications. In some cases
 
 Dataset: https://www.kaggle.com/ciplab/real-and-fake-face-detection 
 
+<img src="samples.png" width="50%" height="50%"/>
