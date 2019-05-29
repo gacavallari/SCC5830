@@ -10,9 +10,10 @@ Facial recognition is being used in many systems and applications. In some cases
 2. The description of input images (with examples) including the source of the images
 The dataset contais three groups of fake photos: easy, mid, and hard. It's possible to use the filenames of fake images to see which part of faces are replaced:
 
-
+<img src="filename_description.jpg" width="65%" height="65%"/>
 
 Examples of images:
+
 <img src="samples.jpg" width="65%" height="65%"/>
 
 Source of the images: https://www.kaggle.com/ciplab/real-and-fake-face-detection 
