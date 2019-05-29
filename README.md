@@ -30,10 +30,10 @@ IV. Compare my results with the "ground truth", obtaining an accuracy for easy, 
 
 First results obtained:
 
-<img src="simple_thresholding.jpg" width="65%" height="65%"/>
+<img src="simple_thresholding.png" width="65%" height="65%"/>
 
 <img src="adaptative_thresholding.png" width="65%" height="65%"/>
 
-<img src="sotsu.png" width="65%" height="65%"/>
+<img src="otsu.png" width="65%" height="65%"/>
 
 
