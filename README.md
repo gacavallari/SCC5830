@@ -5,9 +5,9 @@ Gabriel Biscaro Cavallari
 
 Facial recognition is being used in many systems and applications. In some cases it's important to detect if fake images are being uploaded by the user to the system in a registration process. This project aims to detect "photoshopped" frontal face images. The goal of this project is to detect likely regions that have been modified using photo editing tools. 
 
-1. Main Objective: Given a frontal face image, detect likely regions that have been modified using photo editing tools. 
+*Main Objective*: Given a frontal face image, detect likely regions that have been modified using photo editing tools. 
 
-2. Description of input images: the dataset contais three groups of fake photos: easy, mid, and hard. It's possible to use the filenames of the fake images to know what have been manipulated:
+*Description of input images*: the dataset contais three groups of fake photos: easy, mid, and hard. It's possible to use the filenames of the fake images to know what have been manipulated:
 
 <img src="filename_description.jpg" width="65%" height="65%"/>
 
@@ -17,23 +17,21 @@ Examples of images:
 
 Source of the images: https://www.kaggle.com/ciplab/real-and-fake-face-detection 
 
-3. Steps to reach the objective:
+*Steps and methods used*:
 
-I. Explore simple methods: Simple Thresholding, Adaptive Thresholding, Otsu’s Binarization and multiple filters. Also texture analysis and color analysis. 
+1 - Exploring the image color spaces
 
-II. Explore some image forensics techniques, such as Noise Detection and Error Level Analysis (ELA). 
+2 - Denoising methods
 
-III. The methods above should be enough to correctly detect the manipulated parts of the easy images. For the mid and hard images, if necessary, a CNN will be trained.   
+3 - Error Level Analysis
 
-IV. Compare my results with the "ground truth", obtaining an accuracy for easy, mid and hard photos, since it's possible to use the filenames of the fake images to know what have been manipulated. 
+4 - Simple filter methods
+
+5 - PCA and LBP (failed attempts)
+
+6 - More examples
 
 
-First results obtained:
-
-<img src="simple_thresholding.png" width="65%" height="65%"/>
-
-<img src="adaptative_thresholding.png" width="65%" height="65%"/>
-
-<img src="otsu.png" width="65%" height="65%"/>
+The final report is the file **Final_report.ipynb**. The code is the file **Code.ipynb**
 
 
